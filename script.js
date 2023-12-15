@@ -9,7 +9,6 @@ function createGrid(gridSize) {
 
         for (j = 0; j < gridSize; j++) {
             const newCol = document.createElement(`div`);
-            newCol.textContent = `hi`;
             newCol.classList = `gridCol`;
             newRow.appendChild(newCol);
         }

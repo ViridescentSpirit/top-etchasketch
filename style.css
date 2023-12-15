@@ -5,7 +5,19 @@
     padding: 20px;
 }
 
+.etchASketch {
+    margin: 0.5%;
+}
+
 .gridRow {
     display: flex;
     justify-content: space-evenly;
+}
+
+.gridCol {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    flex-grow: 1;
+    aspect-ratio: 1/1;
 }

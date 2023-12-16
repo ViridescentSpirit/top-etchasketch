@@ -14,6 +14,12 @@
     justify-content: space-evenly;
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
 .gridCol {
     border-style: solid;
     border-color: black;
@@ -22,7 +28,7 @@
     aspect-ratio: 1/1;
 }
 
-#resetButton {
+button {
     border-style: solid;
     border-color: black;
     border-width: 2px;
@@ -30,4 +36,5 @@
     background-color: blue;
     color: white;
     padding: 10px;
+    width: 200px;
 }

@@ -2,11 +2,11 @@
     text-align: center;
     background-color: lightblue;
     margin: -25px -25px 0px -25px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .etchASketch {
-    margin: 0.5%;
+    margin: 1% 0.5%;
 }
 
 .gridRow {
@@ -20,4 +20,14 @@
     border-width: 2px;
     flex-grow: 1;
     aspect-ratio: 1/1;
+}
+
+#resetButton {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 10px;
 }

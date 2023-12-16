@@ -18,3 +18,20 @@ function createGrid(gridSize) {
 }
 
 createGrid(gridSize);
+
+const gridElements = document.querySelectorAll(`.gridCol`);
+
+gridElements.forEach(function(square) {
+    square.addEventListener(`mouseover`,function(){
+        this.style.backgroundColor = `blue`;
+    });
+});
+
+const resetButton = document.querySelector(`#resetButton`);
+resetButton.addEventListener(`click`, clearAllSquares);
+
+function clearAllSquares() {
+    gridElements.forEach(function(square) {
+        square.style.backgroundColor = `white`;
+    });
+};
